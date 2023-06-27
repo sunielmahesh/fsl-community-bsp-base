@@ -11,12 +11,7 @@ In order to know the supported boards, please, see the release notes at
 Quick Start Guide
 -----------------
 
-Once you have downloaded the source of all projects, you will have to
-call:
-
-$: . ./setup-environment <build directory>
-
-After this step, you will be with everything need for build an image.
+Refer to https://github.com/sunielmahesh/fsl-community-bsp-platform/blob/kirkstone/README.adoc
 
 Contributing
 ------------
@@ -46,8 +41,10 @@ The following layers are included on this release:
 
  * meta-freescale-3rdparty: support for boards using Freescale's processors
    Path: sources/meta-freescale-3rdparty
-   Project: https://github.com/Freescale/meta-freescale-3rdparty
-   GIT: git://github.com/Freescale/meta-freescale-3rdparty.git
+   Project: https://github.com/sunielmahesh/meta-freescale-3rdparty
+   GIT: https://github.com/sunielmahesh/meta-freescale-3rdparty.git
+   Reference Project: https://github.com/Freescale/meta-freescale-3rdparty
+   Reference GIT: git://github.com/Freescale/meta-freescale-3rdparty.git
    Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
    Note: Use [3rdparty] in subject to easy the processing
 
@@ -57,3 +54,13 @@ The following layers are included on this release:
    GIT: git://github.com/Freescale/meta-freescale-distro.git
    Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
    Note: Use [distro] in subject to easy the processing
+
+* meta-swupdate: support for a deployment mechanism of Yocto's images based on swupdate project
+   Path: sources/meta-swupdate
+   Project: https://github.com/sbabic/meta-swupdate
+   GIT: https://github.com/sbabic/meta-swupdate.git
+  
+* meta-swupdate-boards: examples on how to use the SWUpdate project
+   Path: sources/meta-swupdate-boards
+   Project: https://github.com/sunielmahesh/meta-swupdate-boards
+   GIT: https://github.com/sunielmahesh/meta-swupdate-boards.git
